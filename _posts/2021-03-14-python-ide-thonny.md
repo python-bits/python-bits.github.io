@@ -13,7 +13,7 @@ Um mit MicroPython auf einem ESP-Board oder dem neuen Raspberry Pi Pico zu kommu
 
 Der folgende Screenshot zeigt die IDE nach dem Start:
 
-<img src="/static/python-ide-thonny/thonny.png" alt="Thonny, eine kleine IDE für MicroPython" class="responsive">
+<img src="/static/python-ide-thonny/thonny.png" alt="Thonny, eine kleine IDE für MicroPython" class="img-fluid">
 
 Wie man erkennen kann beschränkt sich die IDE auf das Wesentliche. Im oberen Textfeld lässt sich Programmcode eingeben. Dieser kann nach dem Speichern mit dem grünen Pfeil ausgeführt werden. Die Ausgaben erscheinen dann in der Konsole im unteren Bereich.
 

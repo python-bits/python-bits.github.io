@@ -9,7 +9,7 @@ vgwort:
 
 Die Raspberry Pi Foundation hat nach den bisherigen Raspberry Pis, die ja eher "komplette Computer" sind, nun ein Mikrocontroller-Board  herausgebracht. Der **[Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)** steht in Konkurrenz zu Arduino- oder ESP32-Boards und lässt sich wie diese in C oder MicroPython Programmieren. In diesem Beitrag wird gezeigt, wie man das Board in Betrieb nimmt und ersten Python-Code darauf ausführt.
 
-<img src="/static/2021-03-16-raspberry-pi-pico/raspberry-pi-pico.jpg" alt="Der neue Raspberry Pi Pico mit dem RP2040-Mikrocontroller" class="responsive">
+<img src="/static/2021-03-16-raspberry-pi-pico/raspberry-pi-pico.jpg" alt="Der neue Raspberry Pi Pico mit dem RP2040-Mikrocontroller" class="img-fluid">
 
 ## Installieren von MicroPython
 
@@ -23,7 +23,7 @@ Hat das geklappt, kann man sich mit *REPL* (Read Evaluate Print Loop), dem inter
 
 Wichtig: Nach dem Bestätigen des Kommandos mit Return muss man nochmal Return drücken (also insgesamt 2x). Die erfolgreiche Verbindung wird dann durch den REPL-Prompt (>>>) angezeigt. Hier lassen sich nun Python-Kommandos direkt ausführen:
 
-<img src="/static/2021-03-16-raspberry-pi-pico/repl-raspberry-pi-pico.jpg" alt="In REPL lassen sich Python-Kommandos direkt ausühren" class="responsive">
+<img src="/static/2021-03-16-raspberry-pi-pico/repl-raspberry-pi-pico.jpg" alt="In REPL lassen sich Python-Kommandos direkt ausühren" class="img-fluid">
 
 Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board aktivieren, sie wird über PIN 25 angesprochen:
 
