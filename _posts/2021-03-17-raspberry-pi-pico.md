@@ -23,7 +23,7 @@ Hat das geklappt, kann man sich mit *REPL* (Read Evaluate Print Loop), dem inter
 
 Wichtig: Nach dem Bestätigen des Kommandos mit Return muss man nochmal Return drücken (also insgesamt 2x). Die erfolgreiche Verbindung wird dann durch den REPL-Prompt (>>>) angezeigt. Hier lassen sich nun Python-Kommandos direkt ausführen:
 
-![In REPL lassen sich Python-Kommandos direkt ausühren.](/static/2021-03-16-raspberry-pi-pico/repl-raspberry-pi-pico.jpg)
+<img src="/static/2021-03-16-raspberry-pi-pico/repl-raspberry-pi-pico.jpg" alt="In REPL lassen sich Python-Kommandos direkt ausühren" class="responsive">
 
 Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board aktivieren, sie wird über PIN 25 angesprochen:
 
