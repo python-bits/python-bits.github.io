@@ -30,3 +30,6 @@ Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board a
     >>> from machine import Pin
     >>> led = Pin(25, Pin.OUT)
     >>> led.value(1)
+
+
+Im offiziellen [Raspberry Pi Pico Guide](https://amzn.to/30PbPz3) sind eine ganze Menge cooler Projekte beschrieben, die sich mit dem Zwerg realisieren lassen.
