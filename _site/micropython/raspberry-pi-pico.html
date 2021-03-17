@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>MicroPython auf dem Raspberry Pi Pico</title>
+
+  <style>
+    .responsive {
+        max-width: 100%;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">PythonBits</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/micropython">MicroPython</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/tools">Werkzeuge</a>
+          </li>
+  
+    </div>
+  </nav>
+  
+
+  <div class="container">
+   <h1>MicroPython auf dem Raspberry Pi Pico</h1>
+    <p>Die Raspberry Pi Foundation hat nach den bisherigen Raspberry Pis, die ja eher “komplette Computer” sind, nun ein Mikrocontroller-Board  herausgebracht. Der <strong><a href="https://www.raspberrypi.org/products/raspberry-pi-pico/">Raspberry Pi Pico</a></strong> steht in Konkurrenz zu Arduino- oder ESP32-Boards und lässt sich wie diese in C oder MicroPython Programmieren. In diesem Beitrag wird gezeigt, wie man das Board in Betrieb nimmt und ersten Python-Code darauf ausführt.</p>
+
+<p><img src="/static/2021-03-16-raspberry-pi-pico/raspberry-pi-pico.jpg" alt="Der neue Raspberry Pi Pico mit dem RP2040-Mikrocontroller" class="responsive" /></p>
+
+<h2 id="installieren-von-micropython">Installieren von MicroPython</h2>
+
+<p>Zur Installation von MicroPython auf dem Raspberry Pi Pico ist zunächst ein UF2-File zu laden, man erhält es <a href="https://www.raspberrypi.org/documentation/pico/getting-started/">hier</a>. Diese Datei muss nun auf den Pico gebracht werden. Dazu wird das Board per USB mit dem PC oder Mac verbunden, und dabei der weiße BOOTSEL-Schalter gedrückt werden. Er befindet sich in der Nähe des USB-Anschlusses auf dem Board. Der Pico wird dadurch unter dem Namen RPI-RP2 ins Dateisystem eingehängt. Das UF2-File wird dann einfach über Drag-and-drop in dieses Verzeichnis geschoben. Der Raspberry Pi Pico bootet danach automatisch und ist einsatzbereit.</p>
+
+<h2 id="verbinden-mit-repl">Verbinden mit REPL</h2>
+
+<p>Hat das geklappt, kann man sich mit <em>REPL</em> (Read Evaluate Print Loop), dem interaktiven Python Prompt von MicroPython auf dem Mikrocontroller verbinden. Das geschieht mit Hilfe eines Terminal Emulators, unter MacOS beispielsweise mit screen:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>screen  /dev/tty.usbmodemFA141 115200
+</code></pre></div></div>
+
+<p>Wichtig: Nach dem Bestätigen des Kommandos mit Return muss man nochmal Return drücken (also insgesamt 2x). Die erfolgreiche Verbindung wird dann durch den REPL-Prompt (»&gt;) angezeigt. Hier lassen sich nun Python-Kommandos direkt ausführen:</p>
+
+<p><img src="/static/2021-03-16-raspberry-pi-pico/repl-raspberry-pi-pico.jpg" alt="In REPL lassen sich Python-Kommandos direkt ausühren." /></p>
+
+<p>Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board aktivieren, sie wird über PIN 25 angesprochen:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; from machine import Pin
+&gt;&gt;&gt; led = Pin(25, Pin.OUT)
+&gt;&gt;&gt; led.value(1)
+</code></pre></div></div>
+
+
+    4711
+  </div>
+
+  <footer>
+        <p>Copyright &copy; 2021 - <a href="/impressum">Impressum</a></p>
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
