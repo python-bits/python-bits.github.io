@@ -3,27 +3,22 @@ layout: default
 title: "Die Python IDE Thonny"
 image: /static/python-ide-thonny/thonny-logo.png
 category: tools
-tags: ide, micropython
+tags: ide, micropython, pico
 vgwort:
 ---
 
-**Thonny, die Python IDE for Beginners**, ist eine kompakte Python-IDE, die sich hervorragend zum Lernen der Sprache, aber auch für das Programmieren von ESP-Boards oder den  Raspberry Pi Pico eignet.
+**Thonny, die Python IDE for Beginners**, ist eine kompakte Python-IDE, die sich hervorragend zum Lernen der Sprache, aber auch für das Programmieren von ESP-Boards oder den Raspberry Pi Pico eignet.
 
-Um mit MicroPython auf einem ESP-Board oder dem neuen Raspberry Pi Pico zu kommunizieren kann man REPL nutzen. Die Shell nimmt einzelne Benutzereingaben auf und gibt das Ergebnis an den Benutzer zurück. Das funktioniert, ist aber nicht sonderlich komfortabel. Eine Alternative ist die kleine IDE [Thonny](https://thonny.org), die nur etwas über 80 MB Platz auf der Platte belegt. Im Dwonload enthalten ist der aktuelle Python-Interpreter in der Version 3.7.9, so dass für den Start nichts weiter benötigt wird.
+Um mit MicroPython auf einem ESP-Board oder dem neuen Raspberry Pi Pico zu kommunizieren, kann man REPL nutzen. Die Shell nimmt einzelne Benutzereingaben auf und gibt das Ergebnis an den Benutzer zurück. Das funktioniert, ist aber nicht sonderlich komfortabel. Eine Alternative ist die kleine IDE [Thonny](https://thonny.org), die nur etwas über 80 MB Platz auf der Platte belegt. Im Download enthalten ist der aktuelle Python-Interpreter in der Version 3.7.9, so dass für den Start nichts weiter benötigt wird.
 
 Der folgende Screenshot zeigt die IDE nach dem Start:
 
 <img src="/static/python-ide-thonny/thonny.png" alt="Thonny, eine kleine IDE für MicroPython" class="img-fluid">
 
-Wie man erkennen kann beschränkt sich die IDE auf das Wesentliche. Im oberen Textfeld lässt sich Programmcode eingeben. Dieser kann nach dem Speichern mit dem grünen Pfeil ausgeführt werden. Die Ausgaben erscheinen dann in der Konsole im unteren Bereich.
+Wie man erkennen kann, beschränkt sich die IDE auf das Wesentliche. Im oberen Textfeld lässt sich Programmcode eingeben. Ausgeführt wird er nach dem Speichern mit dem grünen Pfeil in der Toolbar. Die Ausgaben erscheinen dann in der Konsole im unteren Bereich.
 
-Thonny ist mit den gängigen IDE-Features ausgestattet. Die Syntax des Codes wird durch Highlighting in verschiedenen Farben hervorgehoben. Funktionen werden beim Tippen durch Auto-Completion vervollstämndigt. Im Bereich links neben dem Code lassen sich Haltepunkte setzen. Führt man dann das Script im Debug-Modus (der Button mit dem Käfer drauf) aus, so stoppt die Ausführung und mit Hilfe der View Variablen lassen sich die Inhalte der Variablen untersuchen. Die üblichen Debugging-Kommandos wie Step Into, Step Over stehen natürlich auch zur Verfügung. Thonny ist eine gute Alternative zu IDLE. An ausgewachsene kommerzielle Produkte wie PyCharm kommt die kleine IDE nicht heran, das ist aber auch nicht das Ziel.
+Thonny ist mit den gängigen IDE-Features ausgestattet. Die Syntax des Codes wird durch Highlighting in verschiedenen Farben hervorgehoben. Funktionen werden beim Tippen durch Auto-Completion vervollständigt. Im Bereich links neben dem Code lassen sich Breakpoints setzen. Führt man dann das Script im Debug-Modus (starten mit dem Button mit dem Käfer drauf) aus, dann stoppt die Ausführung am Haltepunkt und mit Hilfe der View *Variablen* lassen sich die Inhalte der Variablen untersuchen. Die üblichen Debugging-Kommandos wie *Step Into*, *Step Over* stehen natürlich auch zur Verfügung. Thonny ist eine gute Alternative zu IDLE. An ausgewachsene kommerzielle Produkte wie PyCharm kommt die kleine IDE nicht heran, das ist aber auch nicht das Ziel.
 
-
-
-
-Gut gelungen ist die Inztegration mit XXX.  Nach dem Start von Thonny lässt sich in der rechten unteren Ecke der Python-Interpreter auswählen.
-
- Zum Ausführen des Codes auf dem Pico wählt man hier die Option *MicroPython (Raspberry Pi Pico)* aus. Danach kann man beispielsweise den LED-Code von oben in das obere Textfeld eingeben und mit Run (das Icon mit dem grünen Pfeil) direkt auf dem Pico ausführen.
+Gut gelungen ist die Integration mit dem Raspberry Pi Pico. Das ist kein Wunder, die Macher von Thonny arbeiten mit der Raspberry Pi Foundation zusammen. Nach dem Start von Thonny lässt sich in der rechten unteren Ecke der Python-Interpreter auswählen (dort wo die Python-Version angezeigt wird). Wenn ein Pico mit einem USB-Kabel verbunden ist, lässt sich dieser dort auswählen, die Option heißt *MicroPython (Raspberry Pi Pico)*. Der in Thonny eingegebene Code wird dann direkt auf dem Pico ausgeführt.
 
 <img src="http://vg09.met.vgwort.de/na/16b5197b89d4453199794c93d824c672" width="1" height="1" alt="">
