@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Datenschutzhinweise
+sitemap:
+  exclude: 'yes'
 ---
 
 <p><strong>Datenschutzerklärung für Google Analytics</strong></p>
