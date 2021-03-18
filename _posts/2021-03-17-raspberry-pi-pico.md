@@ -33,3 +33,5 @@ Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board a
 
 
 Im offiziellen [Raspberry Pi Pico Guide](https://amzn.to/30PbPz3) sind eine ganze Menge cooler Projekte beschrieben, die sich mit dem Zwerg realisieren lassen.
+
+<img src="http://vg09.met.vgwort.de/na/db359ec8ad354aa0a86d836ba3a86186" width="1" height="1" alt="">

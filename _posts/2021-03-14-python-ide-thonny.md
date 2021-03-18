@@ -25,3 +25,5 @@ Thonny ist mit den gängigen IDE-Features ausgestattet. Die Syntax des Codes wir
 Gut gelungen ist die Inztegration mit XXX.  Nach dem Start von Thonny lässt sich in der rechten unteren Ecke der Python-Interpreter auswählen.
 
  Zum Ausführen des Codes auf dem Pico wählt man hier die Option *MicroPython (Raspberry Pi Pico)* aus. Danach kann man beispielsweise den LED-Code von oben in das obere Textfeld eingeben und mit Run (das Icon mit dem grünen Pfeil) direkt auf dem Pico ausführen.
+
+<img src="http://vg09.met.vgwort.de/na/16b5197b89d4453199794c93d824c672" width="1" height="1" alt="">
