@@ -6,24 +6,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/favicon.png">
-
-
+  <title>{{page.title}}</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <title>{{page.title}}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR7F7K970J"></script>
 
-  <style>
-  .card {
-    flex-direction: row;
-  }
-  .card img {
-    width: 30%;
-  }
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
+    gtag('config', 'G-DR7F7K970J');
+  </script>
 
 </head>
 
@@ -32,7 +30,7 @@
   {% include navbar.html %}
 
   <div class="container">
-   <h1>{{page.title}}</h1>
+    <h1>{{page.title}}</h1>
     {{ content }}
     {{page.vgwort}}
   </div>
