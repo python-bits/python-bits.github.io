@@ -11,7 +11,7 @@ Die Raspberry Pi Foundation hat nach den bisherigen Raspberry Pis, die ja eher "
 
 <img src="/static/2021-03-16-raspberry-pi-pico/raspberry-pi-pico.jpg" alt="Der neue Raspberry Pi Pico mit dem RP2040-Mikrocontroller" class="img-fluid">
 
-## Installieren von MicroPython
+## Installieren von MicroPython auf dem Pico
 
 Zur Installation von MicroPython auf dem Raspberry Pi Pico ist zunächst ein UF2-File zu laden, man erhält es [hier](https://www.raspberrypi.org/documentation/pico/getting-started/). Diese Datei muss nun auf den Pico gebracht werden. Dazu wird das Board per USB mit dem PC oder Mac verbunden, und dabei der weiße BOOTSEL-Schalter gedrückt werden. Er befindet sich in der Nähe des USB-Anschlusses auf dem Board. Der Pico wird dadurch unter dem Namen RPI-RP2 ins Dateisystem eingehängt. Das UF2-File wird dann einfach über Drag-and-drop in dieses Verzeichnis geschoben. Der Raspberry Pi Pico bootet danach automatisch und ist einsatzbereit.
 
