@@ -15,7 +15,11 @@ Standardmäßig sind in dem Betriebssystem sowohl Python 2 als auch Python 3 ins
 
 <img src="/static/python-raspberry-pi/python-versionen.png" alt="Python 2 und 3 auf dem Raspberry Pi" class="img-fluid">
 
-Durch Eingabe von python bzw. python3 landet man in der interaktiven Python-Shell. Hinter dem Python-Prompt (die drei >>> -Zeichen) lassen sich Python-Kommandos eingeben und ausführen. Das ist aber eher unkomfortabel, weshalb man in der Praxis eher auf eine Entwicklungsumgebung (IDE) zurückgreift.
+Durch Eingabe von python bzw. python3 landet man in der interaktiven Python-Shell. Hinter dem Python-Prompt (die drei >>> -Zeichen) lassen sich Python-Kommandos eingeben und ausführen. Grade bei längeren Programmen ist das aber eher unkomfortabel, weshalb man sie eher in einer Textdatei mit Endung .py speichert und die Datei dem Python-Aufruf als Argument mitgibt:
+
+    python3 test.py
+
+Prinzipiell lassen sich so Python-Programme entwickeln, aber auch das ist noch mühsam. Fehler im Code lassen sich nur schwer finden, weshalb man in der Praxis eher auf eine Entwicklungsumgebung (IDE) zurückgreift.
 
 ## IDLE
 Die bekannteste IDE für Python ist vermutlich IDLE. Die Entwicklungsumgebung ist zunächst nicht installiert, lässt sich aber durch Eingabe des folgenden Kommandos in ein Terminalfenster leicht nachrüsten:
