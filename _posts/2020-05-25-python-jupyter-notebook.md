@@ -32,11 +32,11 @@ Will man den Jupyter-Server von einem anderen Rechner aus nutzen, ist das über 
 
 Nach dem Login startet man Juypter wie oben geschildert auf dem Server und kann dann auf dem Remote-Rechner unter der URL localhost:8000 auf das Notebook zugreifen. Beim ersten Zugriff wird ein Token benötigt, das man in der Serverausgabe findet:
 
-![image](/static/python-jupyter-notebook/jupyter-token.jpg)
+<img src="/static/python-jupyter-notebook/jupyter-token.jpg" class="img-fluid">
 
 Klappt der Zugriff, egal ob lokal oder remote, wird zunächst das serverseitige Dateisystem angezeigt:
 
-![image](/static/python-jupyter-notebook/jupyter-tree.jpg)
+<img src="/static/python-jupyter-notebook/jupyter-tree.jpg" class="img-fluid">
 
 Falls bereits existierende Notizbücher mit der Endung *ipynb* vorliegen, lassen sie sich durch Anklicken öffnen.
 
@@ -47,12 +47,13 @@ Neue Zellen fügt man mit dem Plus-Button zu, gelöscht werden sie mit der Schal
 
 Im Beispiel wurde zunächst ein Text und dann eine Zeile Code eingegeben:
 
-![image](/static/python-jupyter-notebook/jupyter-cells.jpg)
+<img src="/static/python-jupyter-notebook/jupyter-cells.jpg" class="img-fluid">
 
 ## Ausführen des Kernels
 Das Ausführen des Programms erfolgt erwartungsgemäß mit *Run*. Die grade ausgewählte Zelle, erkennbar am grünen Rahmen, wird dabei in einem sogenanntem *Kernel* ausgeführt. Ein Kernel ist ein programmiersprachenabhängiger Interpreter, der die Anfragen bearbeitet, Code ausführt und die Antworten zurückliefert. Der mitgelieferte Standardkernel für Python ist *iPython*. Weitere Kernel lassen sich bei Bedarf installieren. Jupyter unterstützt durch diese Technik 40 verschiedene Programmiersprachen. Die weiteste Verbreitung hat Jupyter Notebook aber nach wie vor im Umfeld der Sprachen **Ju**lia, **Py**thon und **R**, die auch Namensgeber für das Projekt sind.
 
-![image](/static/python-jupyter-notebook/jupyter-run.jpg)
+<img src="/static/python-jupyter-notebook/jupyter-run.jpg" class="img-fluid">
+
 
 Wer möchte kann genau [dieses Notebook ausprobieren](https://mybinder.org/v2/gh/dirkkoller/dirkkoller.github.io/master?filepath=test.ipynb) und bekommt so eine Idee wie das Teilen von Notebooks, hier mittels [binder](https://mybinder.org/), funktioniert (dauert ein paar Sekunden bis es interaktiv ist).
 
