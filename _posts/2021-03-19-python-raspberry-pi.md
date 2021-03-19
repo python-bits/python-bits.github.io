@@ -20,7 +20,7 @@ IDLE findet sich danach im Applications-Menü (die Himbeere am oberen Bildschirm
 
 <img src="/static/python-raspberry-pi/raspberry-pi-idle.png" alt="IDLE auf dem Raspberry Pi" class="img-fluid">
 
-Im IDLE-Shell Window, das sich nach dem Start öffnet, kann man Python-Kommandos eingeben, die werden dann direkt ausgeführt. Für ganze Programme öffnet man mit File >  _File > New File_ ein IDLE-Editorfenster. Ausgeführt werden die Scripte dann mit  _Run > Run Module_, wobei hier zunächst ein Speicherort anzugeben ist. IDLE beherrscht unter anderem Syntax-Higlighting (das Färben unterschiedlicher Code-Bestandteile in unterschiedlichen Farben, Code-Completion (das Vervollständigen von Funktionsnamen) und Debugging.
+Im IDLE-Shell Window, das sich nach dem Start öffnet, kann man Python-Kommandos eingeben, die werden dann direkt ausgeführt. Für ganze Programme öffnet man mit _File > New File_ ein IDLE-Editorfenster. Ausgeführt werden die Scripte dann mit  _Run > Run Module_, wobei hier zunächst ein Speicherort anzugeben ist. IDLE beherrscht unter anderem Syntax-Higlighting (das Färben unterschiedlicher Code-Bestandteile in unterschiedlichen Farben), Code-Completion (das Vervollständigen von Funktionsnamen) und Debugging.
 
 ## Thonny
 Bereits vorhanden, und ebenfalls unter *Entwicklung* zu finden ist [Thonny](https://thonny.org/). Die IDE richtet sich speziell an Anfänger und ist ähnlich IDLE aufgebaut. Anders als bei IDLE sind bei Thonny aber Code- und Shell-Bereich in einem Fenster zusammengefasst.
