@@ -9,7 +9,13 @@ vgwort:
 
 **Python** ist die bevorzugte Programmiersprache für den **Raspberry Pi** und seit der Version 4 des Minirechners lässt sich auch ganz passabel darauf entwickeln. Der Beitrag stellt die verschiedenen Möglichkeiten vor.
 
-Ausgegangen wird hier von der Raspberry Pi Desktop-Variante (32 Bit), die mit dem Raspberry Pi Imager schnell geschrieben ist.
+Ausgegangen wird hier von der Desktop-Variante von Raspberry Pi OS (32 Bit), die mit dem Raspberry Pi Imager schnell geschrieben ist.
+
+Standardmäßig sind in dem Betriebssystem sowohl Python 2 als auch Python 3 installiert. Mit dem Kommando python --version bzw. python3 --version kann man sich davon überzeugen:
+
+<img src="/static/python-raspberry-pi/python-versionen.png" alt="Python 2 und 3 auf dem Raspberry Pi" class="img-fluid">
+
+Durch Eingabe von python bzw. python3 landet man in der interaktiven Python-Shell. Hinter dem Python-Prompt (die drei >>> -Zeichen) lassen sich Python-Kommandos eingeben und ausführen. Das ist aber eher unkomfortabel, weshalb man in der Praxis eher auf eine Entwicklungsumgebung (IDE) zurückgreift.
 
 ## IDLE
 Die bekannteste IDE für Python ist vermutlich IDLE. Die Entwicklungsumgebung ist zunächst nicht installiert, lässt sich aber durch Eingabe des folgenden Kommandos in ein Terminalfenster leicht nachrüsten:
