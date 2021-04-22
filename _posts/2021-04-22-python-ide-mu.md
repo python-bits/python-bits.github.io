@@ -20,6 +20,8 @@ Nach dem Start des Python-Scripts wird im unteren Textfeld die Kommunikation mit
 
 <img src="/static/python-ide-mu/mu-repl.png" alt="REPL-Feld in Mu" class="img-fluid">
 
-Das war es aber auch schon mit der Unterstützung für Programmierer. Die restlichen Funktionen betreffen das Erstellen, Laden und Speichern von Dateien und das Aussehen des Editors.
+Im Python 3-Modus lassen sich neben den Zeilennummern Breakpoints setzen und mit den üblichen Kommandos durch den Code steppen. Die Inhalte von Variablen werden dabei im _Debugging Inspector_ auf der rechten Seite des Fensters angezeigt.
 
-Mu eignet sich dank der zahlreichen Verbindungsmöglichkeiten für die ersten Schritte mit Micro/CircuitPython auf einem angeschlossenen Board. Für die Entwicklung komplizierter Anwendungen wäre aber beispielsweise ein Debugger ein hilfreiches Feature.
+Weitere Funktionen betreffen das Erstellen, Laden und Speichern von Dateien und das Aussehen des Editors.
+
+[Mu](https://codewith.mu) ist für Windows, macOS oder als Python-Paket für Linux erhältlich und eignet sich dank der zahlreichen Verbindungsmöglichkeiten hervorragend für die ersten Schritte mit Micro/CircuitPython.
