@@ -10,7 +10,7 @@ Die Auswahl an Python-IDEs und -Editoren ist beeindruckend: IDLE, Thonny, PyChar
 
 Einige der Anwendungen wie uPyCraft richten sich dabei speziell an MicroPython-Programmierer. Andere wie IDLE oder Thonny sollen Anfänger bei den ersten Schritten mit Python generell unterstützen.
 
-Der **Python-Editor Mu** kann Beides. Er richtet sich an Einsteiger, verbindet sich dabei aber problemlos mit einem MicroPython-kompatiblen Board wie einem ESP8266/ESP32, einen Lego-Spike, einem BBC micro:bit oder einem Raspberry Pi Pico.  Auch CircuitPython findet sich  in der Modus-Auswahl.
+Der **Python-Editor Mu** kann Beides. Er richtet sich an Einsteiger und basiert nach eigenen Angaben  auf dem umfassenden Feedback von Python-Trainern und Lernenden. Mu verbindet sich dabei aber problemlos mit einem MicroPython-kompatiblen Board wie einem ESP8266/ESP32, einen Lego-Spike, einem BBC micro:bit oder einem Raspberry Pi Pico.  Auch CircuitPython findet sich  in der Modus-Auswahl.
 
 <img src="/static/python-ide-mu/mu-modus.png" alt="Auswahl des Modus in der Python-IDE Mu" class="img-fluid">
 
