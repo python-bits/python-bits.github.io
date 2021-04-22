@@ -2,8 +2,8 @@
 layout: default
 title:  Python-IDE Mu
 image: /static/python-ide-mu/python-ide-mu.png
-date:   2020-05-13
 category: tools
+tags: ide, micropython, pico
 ---
 
 Die Auswahl an Python-IDEs und -Editoren ist beeindruckend: IDLE, Thonny, PyCharm, uPyCraft oder PyDev, um nur ein paar Vertreter zu nennen.
