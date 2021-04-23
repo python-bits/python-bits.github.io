@@ -1,10 +1,9 @@
 ---
 layout: default
-title:
+title: Beiträge
 ---
 
-## Beiträge
-<ul>
+<ul style="list-style-type:none;">
 {% for post in site.posts %}
   {% include teaser.html %}
 {% endfor %}
