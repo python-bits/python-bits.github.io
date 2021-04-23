@@ -3,9 +3,9 @@ layout: default
 title: Machine Learning
 ---
 
-## Beiträge
 
-<ul>
+<ul style="list-style-type:none;">
+
 {% for post in site.categories['machine-learning'] %}
 {% include teaser.html %}
 {% endfor %}

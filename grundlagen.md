@@ -3,7 +3,8 @@ layout: default
 title: Grundlagen
 ---
 
-<ul>
+<ul style="list-style-type:none;">
+
 {% for post in site.categories['grundlagen'] %}
 	<li>
 		<a href="{{ post.url }}">{{ post.title }}</a>
