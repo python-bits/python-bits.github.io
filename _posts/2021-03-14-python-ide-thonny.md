@@ -4,6 +4,7 @@ title: "Die Python IDE Thonny"
 image: /static/python-ide-thonny/thonny-logo.png
 category: tools
 tags: ide, micropython, pico
+# KW: thonny
 ---
 
 **Thonny, die Python IDE for Beginners**, ist eine kompakte Python-IDE, die sich hervorragend zum Lernen der Sprache, aber auch für das Programmieren von ESP-Boards oder den Raspberry Pi Pico eignet.
