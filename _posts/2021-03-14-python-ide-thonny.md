@@ -4,6 +4,8 @@ title: "Die Python IDE Thonny"
 image: /static/python-ide-thonny/thonny-logo.png
 category: tools
 tags: ide, micropython, pico
+vgwort: <img src="https://vg08.met.vgwort.de/na/c85cbdd920214ff7a7a10450efbfabec" width="1" height="1" alt=">
+
 # KW: thonny
 ---
 
@@ -22,5 +24,3 @@ Wie man erkennen kann, beschränkt sich die IDE auf das Wesentliche. Im oberen T
 ## Thonny & Raspberry Pi Pico
 
 Gut gelungen ist die Integration mit dem Raspberry Pi Pico. Das ist kein Wunder, die Macher von Thonny arbeiten mit der Raspberry Pi Foundation zusammen. Nach dem Start von Thonny lässt sich in der rechten unteren Ecke der Python-Interpreter auswählen (dort wo die Python-Version angezeigt wird). Wenn ein Pico mit einem USB-Kabel verbunden ist, findet man hier die die Option *MicroPython (Raspberry Pi Pico)*. Der in Thonny eingegebene Code wird dann direkt auf dem Pico ausgeführt.
-
-<img src="http://vg09.met.vgwort.de/na/16b5197b89d4453199794c93d824c672" width="1" height="1" alt="">
