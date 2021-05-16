@@ -1,6 +1,8 @@
 ---
 layout: default
 title: MicroPython
+vgwort: <img src="https://vg08.met.vgwort.de/na/53b66c909324461f8ab37dc09fdb992c" width="1" height="1" alt=">
+
 # KW: micropython
 ---
 
