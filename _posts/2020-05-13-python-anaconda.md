@@ -4,7 +4,6 @@ title:  Python mit Anaconda
 image: /static/anaconda/anaconda-navigator.JPG
 date:   2020-05-13
 category: tools
-kw: python anaconda
 ---
 
 Python ist die Sprache der Wahl für Projekte im Umfeld von Machine Learning und Data Science. Verschiedene Versionen der Sprache selbst, aber vor allen Dingen tausende in diesem Kontext benötigten Pakete und Bibliotheken sind schwer zu kontrollieren. Zum Glück steht mit **[Anaconda](https://www.anaconda.com/)** ein Werkzeug zur Verfügung, das hilft den Überblick zu behalten und das Projekt zu verwalten.
