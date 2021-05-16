@@ -4,7 +4,7 @@ title: "MicroPython auf dem Raspberry Pi Pico"
 image: /static/2021-03-16-raspberry-pi-pico/raspberry-pi-pico.jpg
 category: micropython   
 tags: pico
-vgwort:
+vgwort: <img src="https://vg08.met.vgwort.de/na/ed5d3aaa24114f74a0c984f224bc27fe" width="1" height="1" alt=">
 ---
 
 Die Raspberry Pi Foundation hat nach den bisherigen Raspberry Pis, die ja eher "komplette Computer" sind, nun ein Mikrocontroller-Board  herausgebracht. Der **[Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)** steht in Konkurrenz zu Arduino- oder ESP32-Boards und lässt sich wie diese in C oder MicroPython Programmieren. In diesem Beitrag wird gezeigt, wie man das Board in Betrieb nimmt und ersten Python-Code darauf ausführt.
@@ -33,5 +33,3 @@ Mit ein paar Zeilen Code lässt sich zum Beispiel die grüne LED auf dem Board a
 
 
 Im offiziellen [Raspberry Pi Pico Guide](https://amzn.to/30PbPz3) sind eine ganze Menge cooler Projekte beschrieben, die sich mit dem Zwerg realisieren lassen.
-
-<img src="http://vg09.met.vgwort.de/na/db359ec8ad354aa0a86d836ba3a86186" width="1" height="1" alt="">

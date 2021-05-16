@@ -4,6 +4,8 @@ title:  Python mit Anaconda
 image: /static/anaconda/python-anaconda.JPG
 date:   2020-05-13
 category: tools
+vgwort: <img src="https://vg08.met.vgwort.de/na/2b1ee50424784d4e8236eaa8bfb74dec" width="1" height="1" alt=">
+
 # KW: python anaconda
 ---
 

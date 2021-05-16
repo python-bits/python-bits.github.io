@@ -3,6 +3,7 @@ layout: default
 title:  Python mit Jupyter Notebook
 date:   2020-05-13
 category: tools
+vgwort: <img src="https://vg08.met.vgwort.de/na/bf35f100c3fe46ec844dde70c0862d21" width="1" height="1" alt=">
 ---
 
 Es gibt eine ganze Reihe ausgezeichneter IDEs für Python. Zum Publizieren, Teilen, Visualisieren und Dokumentieren von eigenen Projekten ist allerdings das **[Jupyter Notebook](https://jupyter.org/)** der Standard. Das gilt insbesondere für den wissenschaftlichen Bereich.
