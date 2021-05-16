@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Python mit Anaconda
-image: /static/anaconda/anaconda-navigator.JPG
+image: /static/anaconda/python-anaconda.JPG
 date:   2020-05-13
 category: tools
 # KW: python anaconda
