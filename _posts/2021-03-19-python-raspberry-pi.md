@@ -4,7 +4,7 @@ title: Python auf dem Raspberry Pi
 image: /static/python-raspberry-pi/raspberry-pi-idle.png
 category: hardware
 tags:	raspberry-pi
-vgwort: <img src="https://vg08.met.vgwort.de/na/c76c96d04cca41fc9d0dfaac939612c1" width="1" height="1" alt=">
+vgwort: <img src="https://vg08.met.vgwort.de/na/c76c96d04cca41fc9d0dfaac939612c1" width="1" height="1" alt="">
 ---
 
 **Python** ist die bevorzugte Programmiersprache für den **Raspberry Pi** und seit der Version 4 des Minirechners lässt sich auch ganz passabel darauf entwickeln. Der Beitrag stellt die verschiedenen Möglichkeiten vor.

@@ -4,7 +4,7 @@ title: Buchvorstellung - Make your own Neural Network
 image: /static/make-your-own-neural-network/make-your-own-neural-network.jpg
 category: machine-learning   
 tags:
-vgwort: <img src="https://vg08.met.vgwort.de/na/c6d30f051c38441fb780ade3c1fc8974" width="1" height="1" alt=">
+vgwort: <img src="https://vg08.met.vgwort.de/na/c6d30f051c38441fb780ade3c1fc8974" width="1" height="1" alt="">
 ---
 
 Bücher zu Machine Learning und neuronalen Netzen gibt es reichlich. Aufgebaut sind alle ähnlich. Zunächst wird die zugrundeliegende Theorie mehr oder weniger ausführlich besprochen und dann der Umgang mit Werkzeugen wie Tensor Flow und bestehenden oder anzulegenden Modellen erklärt. Man erfährt also, was vermutlich so drin ist im neuronalen Netz und wie man es aus Anwendersicht benutzt. Aber man programmiert es nicht selber.

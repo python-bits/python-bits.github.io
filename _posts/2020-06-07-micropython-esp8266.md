@@ -3,7 +3,7 @@ layout: default
 title:  MicroPython auf dem ESP8266
 date:   2020-05-13
 category: micropython
-vgwort: <img src="https://vg08.met.vgwort.de/na/ee7ebc1d6b9a4e7e85a1854fa5795787" width="1" height="1" alt=">
+vgwort: <img src="https://vg08.met.vgwort.de/na/ee7ebc1d6b9a4e7e85a1854fa5795787" width="1" height="1" alt="">
 ---
 
 Bisher war die Arduino-Plattform mit C/C++ als Sprache das Mittel der Wahl, um Sensoren auszulesen oder Servos anzusteuern. Inzwischen wird Arduino aber gleich von zwei Seiten attackiert. Die 32Bit-Mikrokontroller ESP8266 bzw. ESP32 von [Espressif](https://www.espressif.com/) werden immer beliebter und machen der etablierten Arduino-Hardware Konkurrenz.

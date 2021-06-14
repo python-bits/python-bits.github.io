@@ -4,7 +4,7 @@ title: "Die Python IDE Thonny"
 image: /static/python-ide-thonny/thonny-logo.png
 category: tools
 tags: ide, micropython, pico
-vgwort: <img src="https://vg08.met.vgwort.de/na/c85cbdd920214ff7a7a10450efbfabec" width="1" height="1" alt=">
+vgwort: <img src="https://vg08.met.vgwort.de/na/c85cbdd920214ff7a7a10450efbfabec" width="1" height="1" alt="">
 
 # KW: thonny
 ---

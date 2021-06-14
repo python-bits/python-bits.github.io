@@ -4,7 +4,7 @@ title:  Python-IDE Mu
 image: /static/python-ide-mu/python-ide-mu.png
 category: tools
 tags: ide, micropython, pico
-vgwort: <img src="https://vg08.met.vgwort.de/na/6b41ce932e944571bd5bef89a25f7792" width="1" height="1" alt=">
+vgwort: <img src="https://vg08.met.vgwort.de/na/6b41ce932e944571bd5bef89a25f7792" width="1" height="1" alt="">
 ---
 
 Die Auswahl an Python-IDEs und -Editoren ist beeindruckend: IDLE, [Thonny](python-ide-thonny.html), PyCharm, uPyCraft oder PyDev, um nur ein paar Vertreter zu nennen.
